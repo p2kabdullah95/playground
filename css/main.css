@@ -1,0 +1,14 @@
+html {
+  color-scheme: dark;
+}
+
+.parent * {
+  background-color: tomato;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: gold;
+}
