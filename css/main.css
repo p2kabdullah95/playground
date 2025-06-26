@@ -1,46 +1,68 @@
 html{
   color-scheme: dark;
-}
-
-div.center{
-  background-color: #181818;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   
 }
 
-.item{
-  height: 150px;
-  width: 150px;
-  color: rgb(255, 255, 255);
-  margin: 10px;
-  padding: 10px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  border-radius: 20%;
-    display: flex;
-  align-items: center;
+.control{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+}
+
+.body1{
+   padding: 10px;
+  color: rgb(45, 76, 255);
+  border: 10px;
+  right: 10px;
+  gap: 2px;
+  position: absolute;
+}
+
+.body2{
+  padding: 10px;
+  color: rgb(144, 26, 240);
+  border: 10px;
+  right: 190px;
+  gap: 2px;
+  position: absolute;
 }
 
 .box1{
-  background-color: rgb(255, 78, 196);
-  font-size: 25px;
+  padding: 10px;
+  color: red;
+  border: 10px;
   
+
 }
 
 .box2{
-  background-color: rgb(237, 60, 60);
-  font-size: 25px;
+  padding: 10px;
+  color: aqua;
+  border: 10px;
+  
 }
 
 .box3{
-  background-color: rgb(88, 76, 251);
-  font-size: 25px;
+  padding: 10px;
+  color: aliceblue;
+  border: 10px;
+  
 }
 
 .box4{
-  background-color: rgb(60, 149, 60);
-  font-size: 25px;
+  padding: 10px;
+  color: tomato;
+  border: 10px; 
+}
+
+.image{
+  padding: 10px;
+  color: rgb(89, 89, 133);
+  border: 10px;
+  left: 4px;
+  gap: 4px;
+  position: absolute;
 }
