@@ -1,68 +1,22 @@
 html{
   color-scheme: dark;
-  
-}
-
-.control{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 100vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 40px;
 }
 
-.body1{
-   padding: 10px;
-  color: rgb(45, 76, 255);
-  border: 10px;
-  right: 10px;
-  gap: 2px;
-  position: absolute;
+.nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 10px;
+ padding-inline: 32px;
+ background-color: rgb(54, 28, 73);
+ border-radius: 20px;
 }
 
-.body2{
-  padding: 10px;
-  color: rgb(144, 26, 240);
-  border: 10px;
-  right: 190px;
-  gap: 2px;
-  position: absolute;
+.flex {
+  display: flex;
 }
 
-.box1{
-  padding: 10px;
-  color: red;
-  border: 10px;
-  
-
-}
-
-.box2{
-  padding: 10px;
-  color: aqua;
-  border: 10px;
-  
-}
-
-.box3{
-  padding: 10px;
-  color: aliceblue;
-  border: 10px;
-  
-}
-
-.box4{
-  padding: 10px;
-  color: tomato;
-  border: 10px; 
-}
-
-.image{
-  padding: 10px;
-  color: rgb(89, 89, 133);
-  border: 10px;
-  left: 4px;
-  gap: 4px;
-  position: absolute;
+.end {
+  gap: 10px;
 }
