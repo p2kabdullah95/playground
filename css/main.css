@@ -1,53 +1,87 @@
-html{
-  color-scheme: dark;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: 100vh;
+:root {
+  --my-padding: 18px;
+  --border-width: 2px;
+  
+  --gap-small: 4px;
+  --gap-medium: 10px;
+  --gap-large: 16px;
 }
 
-.body{
+html {
+  color-scheme: dark;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body {
   display: flex;
   justify-content: center;
   align-items: center;
-   flex-direction: column;
+  flex-direction: column;
+  width: 400px;
+  height: 100vh;
+  margin: 0 auto;
 }
 
-
-.text{
-  flex-direction: column;
+.top{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin: 0;
+}
+
+.text {
+  margin-block: 20px;
+}
+
+.utte{
+  line-height: 1;
+  color: #606070;
+  font-size: 14px;
 }
 
 .sign-in{
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
 }
 
 button{
   display: flex;
   background-color: #303030;
-  border: none;
-  border-radius: 5px;
+  border-style: solid;
+  border-color: #505050;
+  border-radius: 15px;
   gap: 7px;
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 15px;
+  cursor: pointer;
 }
 
-p{
-  color: #303030;
+.sign{
+  color: #f7f6f6;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
-.password{
+.or{
+  color: #494949;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.password {
   display: flex;
-  width: 173px;
+  width: 100%;
   flex-direction: column;
   gap: 10px;
 }
 
 .google{
   display: flex;
-  width: 173px;
   flex-direction: column;  
   button {
     background-color: white; 
@@ -59,7 +93,16 @@ p{
 .account{
     display: flex; 
     color: #a39b9b;
-    gap: 20px;
+    gap: 4px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nalnal{
+  cursor: pointer;
+  color: white;
+  font-weight: semibold;
 }
 
 .gap{
@@ -72,4 +115,41 @@ p{
 .gapdo{
   display: flex;
   gap: 15px;
+  background-color: aliceblue;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.corner{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+input {
+  display: flex;
+  padding: var(--my-padding);
+  width: calc(100% - ((var(--my-padding) * 2) + (var(--border-width) * 2)));
+  border-radius: 15px;
+  border-style: solid;
+  border-width: var(--border-width);
+  border-color: #505050;
+}
+
+.icon {
+  filter: invert(100%);
+}
+
+.line {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  color: #181818;
+  margin-block: var(--gap-large);
+}
+
+.flex-1 {
+  border: 1px solid #303030;
+  flex-grow: 1;
 }
