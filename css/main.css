@@ -153,3 +153,11 @@ input {
   border: 1px solid #303030;
   flex-grow: 1;
 }
+
+.newlink{
+  background-color: #f00ce8;
+  border-radius: 20px;
+  padding: 10px;
+  border: solid;
+  border-color: rgb(45, 240, 2);
+}
